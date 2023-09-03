@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+form input[type="date"] {
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section#current-image-container {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+aside {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul#search-history {
+    list-style: none;
+    padding: 0;
+}
+
+ul#search-history li {
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #333;
+}
+
+ul#search-history li:hover {
+    text-decoration: underline;
+}
